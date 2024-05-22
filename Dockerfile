@@ -14,7 +14,7 @@ RUN sed -i 's/^PermitRootLogin /###PermitRootLogin /' /etc/ssh/sshd_config
 RUN echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
 
 # supervisord
-#COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
+COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 EXPOSE 22
 
