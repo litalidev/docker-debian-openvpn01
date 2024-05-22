@@ -5,7 +5,7 @@ on:
     tags:
       - '2*'
   push:
-    branches: [ "22.04" ]
+    #branches: [ "22.04" ]
   #pull_request:
   #  branches: [ "*" ] 
 
